@@ -22,6 +22,7 @@
 		2D5F0783192E98E20002D601 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D5F0781192E98E20002D601 /* InfoPlist.strings */; };
 		2D5F0785192E98E20002D601 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F0784192E98E20002D601 /* Git_TestTests.m */; };
 		2D5F078F192E994B0002D601 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D5F078E192E994B0002D601 /* green.jpg */; };
+		2D5F0792192EA7990002D601 /* ZKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F0791192EA7990002D601 /* ZKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		2D5F0782192E98E20002D601 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D5F0784192E98E20002D601 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
 		2D5F078E192E994B0002D601 /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
+		2D5F0790192EA7990002D601 /* ZKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKTest.h; sourceTree = "<group>"; };
+		2D5F0791192EA7990002D601 /* ZKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		2D5F074D192E98E20002D601 = {
 			isa = PBXGroup;
 			children = (
+				2D5F0790192EA7990002D601 /* ZKTest.h */,
+				2D5F0791192EA7990002D601 /* ZKTest.m */,
 				2D5F075F192E98E20002D601 /* Git Test */,
 				2D5F077E192E98E20002D601 /* Git TestTests */,
 				2D5F0758192E98E20002D601 /* Frameworks */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5F0792192EA7990002D601 /* ZKTest.m in Sources */,
 				2D5F0770192E98E20002D601 /* ZKViewController.m in Sources */,
 				2D5F0766192E98E20002D601 /* main.m in Sources */,
 				2D5F076A192E98E20002D601 /* ZKAppDelegate.m in Sources */,
